@@ -17,7 +17,7 @@ const InterpretationView = () => {
   const { language } = useLanguageStore(); // Get and set language
   const { philosophy, setPhilosophy } = usePhilosophyStore(); // Get and set philosophy
 
-  const [isCommentary, setIsCommentary] = useState(false); // Toggle between Commentary and Bhashyam
+  const [isCommentary, setIsCommentary] = useState(true); // Toggle between Commentary and Bhashyam
 
   // Fetch Interpretation Data
   const {
@@ -95,10 +95,10 @@ const InterpretationView = () => {
         >
           Vishishtadvaita
         </TexturedButton>
-        
-        <p className="bg-darkbrown rounded-full text-white flex items-center justify-center font-bold w-10 h-10 -mt-2 ml-12">
-              {sutra_no === 0 || sutra_no === -1 ? "S" : sutra_no}
-            </p>
+
+        <p className="bg-darkbrown rounded-full text-white flex items-center justify-center font-bold w-12 h-10 -mt-2 ml-12">
+              {sutra_no === 0 || sutra_no === -1 ? "SM" : sutra_no}
+        </p>
 
       </div>
 

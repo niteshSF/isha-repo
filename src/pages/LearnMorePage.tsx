@@ -1,10 +1,8 @@
 import BaseLayout from "@/layouts/BaseLayout"
 import LeftScroll from "@/components/app/LeftScroll"
-import SearchBar from "@/components/app/SearchBar"
 import RightScroll from "@/components/app/RightScroll"
 import InterpretationView from "@/components/app/InterpretationView"
 import ButtonsPanel from "@/components/app/ButtonsPanel"
-
 import * as React from "react";
 import { useNavigate, useLocation } from "react-router-dom"
 import { useEffect, useRef, useState } from "react"
@@ -150,7 +148,7 @@ export default function LearnMorePage() {
       
       <div className="flex justify-center gap-4 mt-5">
         <LeftScroll />
-        <div className="flex-grow max-w-4xl">
+        <div className="flex-grow max-w-6xl">
           {/* <SearchBar /> */}
           <InterpretationView />
           <ButtonsPanel />

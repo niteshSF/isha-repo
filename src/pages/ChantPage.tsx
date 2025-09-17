@@ -1,11 +1,9 @@
 import BaseLayout from "@/layouts/BaseLayout"
 import LeftScroll from "@/components/app/LeftScroll"
-import SearchBar from "@/components/app/SearchBar"
 import RightScroll from "@/components/app/RightScroll"
 import SutraView from "@/components/app/SutraView"
 import MeaningView from "@/components/app/MeaningView"
 import ButtonsPanel from "@/components/app/ButtonsPanel"
-
 import * as React from "react";
 import { useNavigate, useLocation } from "react-router-dom"
 import { useEffect, useRef, useState } from "react"
