@@ -17,6 +17,8 @@ const LanguageSelect: React.FC<LanguageSelectProps> = ({ isCommentary }) => {
   const { language, setLanguage } = useLanguageStore();
   const languageOptions = [
 
+    // Commented it as we don't have the data for the 3 languages, later we can re-used them as per required
+
     // { value: "sa", label: "Sanskrit" },     // Right now the data was not their, in future we have to use this
 
     { value: "en", label: "English" },
