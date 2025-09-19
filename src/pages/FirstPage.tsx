@@ -41,6 +41,8 @@ const FirstPage = () => {
         className="h-full w-full object-contain"
         onClick={() => handleClick("https://sanskrit.uohyd.ac.in/")} />
       </div>
+
+      {/* Home icon - it is required to go back to the home page where all the 3 upanishads were all together */} 
       <div className="fixed top-[6%] right-[17%] w-[3%] cursor-pointer">
         <Link to="https://test1.samskritifoundation.org/home/" style={{ color: "#fff" }}>
           <IoHome
